@@ -1,0 +1,18 @@
+{
+   "manifest_version": 2,	  
+   "name": "SwuCredit",
+   "description": "Get My Credits",
+   "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "js": ["jquery-1.9.1.min.js","main.js"]
+    }
+  ],
+   "browser_action": {  
+    "default_icon": "icon.png" ,
+    "default_title": "Get My Credits",
+    "default_popup": "popup.html"
+  },  
+   "permissions": [ "tabs"],
+   "version": "1.0"
+}

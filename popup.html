@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=8859_1" />
+<title></title>
+<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+<script type="text/JavaScript" src="popup.js"></script>
+<style type="text/css" media="screen">
+	#popup {width:200px;}
+	#tips{font-size:10px;}
+</style>
+</head>
+<body>
+<p align="center">请选择计算绩点的课程种类</p>
+<p id="tips">Tips:一般来说是学科必修，专业必修和实践必修。</p>
+<div id="popup" >
+<label>通识必修课:</label><input type="checkbox" id="tb" />
+<br>
+<label>通识选修课:</label><input type="checkbox" id="tx"/>
+<br>
+<label>学科必修课:</label><input type="checkbox" id="xb"/>
+<br>
+<label>专业必修课:</label><input type="checkbox" id="zb"/>
+<br>
+<label>专业选修课:</label><input type="checkbox" id="zx"/>
+<br>
+<label>实践必修课:</label><input type="checkbox" id="sb"/>
+<br>
+<input type="submit" value="统计" id="Submit"/>
+</div>
+</body>
+</html>
